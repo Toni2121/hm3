@@ -1,0 +1,11 @@
+
+id_num: int = int(input("Please enter your id: "))
+first_name: str = input("Please enter your first name: ")
+last_name: str = input("Please enter your last name: ")
+height: float = float(input("Please enter your height in meters: "))
+year_born: int = int(input("What year were you born: "))
+print(f"id number: {id_num: >2}")
+print(f"first name: {first_name}")
+print(f"last name:  {last_name: >2}")
+print(f"height:    {height: .2f}")
+print(f"year born:  {year_born: >2}")
